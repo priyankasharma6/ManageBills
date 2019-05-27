@@ -1,0 +1,3 @@
+rootProject.name = 'ManageBills'
+
+include ':app'
