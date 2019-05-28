@@ -16,7 +16,7 @@ npm install
 
 Run the following commands in the terminal to open the virtual device:
 
-`cd C:\Users\Pavan\AppData\Local\Android\Sdk\emulator
+###`cd C:\Users\Pavan\AppData\Local\Android\Sdk\emulator
 
 emulator -list-avds
 
