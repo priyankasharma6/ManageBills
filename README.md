@@ -12,6 +12,19 @@ Connect it with github using
 
 Publish the content to GitHub.
 
-###############################################################################
+npm install
+
+Run the following commands in the terminal to open the virtual device:
+
+`cd C:\Users\Pavan\AppData\Local\Android\Sdk\emulator
+
+emulator -list-avds
+
+emulator -avd Pixel_2_API_25
+`
 
 Run the APP: `react-native run-android`
+
+###############################################################################
+
+ManageMain.js has the main code
