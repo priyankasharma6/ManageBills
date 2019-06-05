@@ -8,19 +8,27 @@ class AddFriend extends React.Component{
     mobile:'',
     email:'',
   }
+
+
  save_action = () =>{
-   //Alert.alert(this.state.name)
+   const new_row = {
+            id: "2",
+            name: this.state.name,
+            mobile: this.state.mobile,
+            email: this.state.email,
+   }
+   this.props.navigation.navigate('ManageMain', { screen_id:"AddFriend" , new_friend : new_row  })
   this.setState(  {
                 name :'',
                 mobile:'',
                 email:'',
               });
-   ToastAndroid.show('Data Saved', ToastAndroid.SHORT);
-   this.props.navigation.navigate('ManageMain')
+    ToastAndroid.show('Data Saved', ToastAndroid.SHORT);
+
 //   console.log('test')
  }
  GoBack = () =>{
-   ToastAndroid.show('Home', ToastAndroid.SHORT);
+   //ToastAndroid.show('Home', ToastAndroid.SHORT);
    this.setState(  {
                  name :'',
                  mobile:'',

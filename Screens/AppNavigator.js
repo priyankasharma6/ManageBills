@@ -14,7 +14,9 @@ const RootStack = createStackNavigator(
     AddExpense: {
               screen: AddExpense,
               navigationOptions: {
-                header: null,
+                //header: true,
+                title:"Add Expense",
+                alignItems: 'center',
               }
             },
     AddFriend: {
